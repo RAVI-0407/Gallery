@@ -23,14 +23,16 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 # PROGRAM :
+```
   ## views.py
-  ```
+  
 from django.shortcuts import render
 def gall(request):
     return render(request,"gallery.html")
 ```
+```
   ## urls.py
-  ```
+
 from django.contrib import admin
 from django.urls import path
 from gall import views
@@ -39,8 +41,9 @@ urlpatterns = [
     path('gallary/',views.gall),
 ]
 ```
-## gallery.html
 ```
+## gallery.html
+
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
