@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/77a03682-f537-4d1a-893f-229c86727fe1)# Ex.08 Design of Interactive Image Gallery
+# Ex.08 Design of Interactive Image Gallery
 # Date:16/11/2024
 # AIM:
 To design a web application for an inteactive image gallery with minimum five images.
